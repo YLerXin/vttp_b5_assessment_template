@@ -75,9 +75,10 @@ public class Main {
 
 			System.out.printf("The %s (position) recorded number of cyclists was in %s,",position,season);
 			System.out.printf("(season),on a %s (day) in the month of %s (month).",day,month);
-			System.out.printf("There were a total of %d (total) cyclist. The weather was",total);
-			System.out.printf("%s",weather);
-			System.out.printf("%s was %s",day,holiday);
+			System.out.printf("There were a total of %d (total) cyclist. The weather was ",total);
+			System.out.printf("%s.",weather);
+			System.out.printf(" %s was %s.",day,holiday);
+			System.out.println();
 			System.out.println();
 
 			posint ++;
