@@ -13,7 +13,7 @@ import vttp.batch5.sdf.task01.models.BikeEntry1;
 public class Main {
 
 	public static void main(String[] args) {
-		String filePath = ("C:\\Users\\yongl\\VTTP\\vttp_b5_assessment_template\\task01\\day.csv");
+		String filePath = "day.csv";
 		try{
 			FileReader fr = new FileReader(filePath);
 			BufferedReader br = new BufferedReader(fr);
